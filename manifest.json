@@ -1,0 +1,19 @@
+{
+	"name": "Duck-Duck-Snooze"
+	,"short_name": "dd-snooze"
+	,"version": "0.0.2"
+	,"manifest_version": 2
+	,"description": "Collapse unwanted search results"
+	,"homepage_url": "https://github.com/clanceyp"
+	,"icons": {
+		"32": "lib/i/cog.png"
+		,"48": "lib/i/cog.png"
+		,"128": "lib/i/cog.png"
+	}
+	,"content_scripts": [{
+			"run_at" :"document_end",
+			"matches": ["https://duckduckgo.com/*"],
+			"js": ["lib/content/zepto.min.js","lib/content/content.js"]
+		}
+	]
+}
