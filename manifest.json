@@ -1,14 +1,14 @@
 {
 	"name": "Duck-Duck-Snooze"
 	,"short_name": "dd-snooze"
-	,"version": "0.0.2"
+	,"version": "0.1.0"
 	,"manifest_version": 2
 	,"description": "Collapse unwanted search results"
 	,"homepage_url": "https://github.com/clanceyp/chrome-extension-duck-duck-snooze"
 	,"icons": {
-		"32": "lib/i/cog.png"
-		,"48": "lib/i/cog.png"
-		,"128": "lib/i/cog.png"
+		"32": "lib/i/duck.png"
+		,"48": "lib/i/duck.png"
+		,"128": "lib/i/duck.png"
 	}
 	,"content_scripts": [{
 			"run_at" :"document_end",
